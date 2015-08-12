@@ -20,6 +20,8 @@
         assertion (= (->identity x) (->identity coerced))]
     [p assertion (s/explain t) x serialized de-serialized coerced-class coerced]))
 
+; TODO: check also the serialzied format
+
 (def tests
   {:protocols [:json]
    :values {String     ["kikka"]
