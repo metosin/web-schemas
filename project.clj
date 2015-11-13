@@ -15,7 +15,7 @@
             :src-uri-prefix "#L"}
 
   :profiles {:dev {:dependencies [[org.clojure/clojure "1.7.0"]
-                                  [org.clojure/clojurescript "1.7.180"]]}
+                                  [org.clojure/clojurescript "1.7.170"]]}
              :1.8 {:dependencies [[org.clojure/clojure "1.8.0-rc1"]]}}
   :aliases {"all" ["with-profile" "dev:dev,1.8"]
             "test-clj" ["all" "do" ["test"] ["check"]]})
